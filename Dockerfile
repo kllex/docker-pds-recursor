@@ -1,4 +1,4 @@
-FROM quay.io/jitesoft/alpine:3.18.4
+FROM quay.io/jitesoft/alpine:3.19.1
 
 RUN apk --no-cache add --update pdns-recursor
 RUN rm -rf /var/cache/apk/*
